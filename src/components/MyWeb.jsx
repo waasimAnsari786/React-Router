@@ -26,9 +26,9 @@ const MyWeb = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="" element={<Layout />}>
+      <Route path="/react-router/" element={<Layout />}>
         <Route
-          path=""
+          path="/react-router/"
           element={
             <Home
               ctnr2Class="flex justify-center items-center mt-8"
@@ -42,7 +42,7 @@ const MyWeb = () => {
         />
 
         <Route
-          path="about-us"
+          path="/react-router/about-us"
           element={
             <Home
               ctnr2Class="hidden"
@@ -54,9 +54,13 @@ const MyWeb = () => {
             />
           }
         />
-        <Route path="contact-us" element={<Contact />} />
-        <Route path="user/:userID" element={<User />} />
-        <Route loader={fetchData} path="github" element={<GitHub />} />
+        <Route path="/react-router/contact-us" element={<Contact />} />
+        <Route path="/react-router/user/:userID" element={<User />} />
+        <Route
+          loader={fetchData}
+          path="/react-router/github"
+          element={<GitHub />}
+        />
       </Route>
     )
   );
