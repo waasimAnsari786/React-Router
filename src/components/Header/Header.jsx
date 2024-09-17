@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <div className="w-1/3">
-          <Link to="/">
+          <Link to="/react-router/">
             <h1 className="text-3xl font-bold">
               Your
               <span className="text-3xl font-bold text-orange-700"> Logo</span>
@@ -21,7 +21,7 @@ const Header = () => {
             <ul className="flex justify-around">
               <li>
                 <NavLink
-                  to="/"
+                  to="/react-router/"
                   className={({ isActive }) =>
                     isActive
                       ? "text-orange-700 font-bold"
@@ -33,7 +33,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="/about-us"
+                  to="/react-router/about-us"
                   className={({ isActive }) =>
                     isActive
                       ? "text-orange-700 font-bold"
@@ -45,7 +45,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="/contact-us"
+                  to="/react-router/contact-us"
                   className={({ isActive }) =>
                     isActive
                       ? "text-orange-700 font-bold"
@@ -57,7 +57,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="/github"
+                  to="/react-router/github"
                   className={({ isActive }) =>
                     isActive
                       ? "text-orange-700 font-bold"
@@ -73,13 +73,13 @@ const Header = () => {
 
         {/* Buttons Section */}
         <div className="w-1/3 text-right">
-          <Link to="/">
+          <Link to="/react-router/">
             <button className="bg-orange-700 text-white px-4 py-2 rounded-lg mr-2 hover:bg-orange-800">
               Log In
             </button>
           </Link>
 
-          <Link to="/">
+          <Link to="/react-router/">
             <button className="bg-orange-700 text-white px-4 py-2 rounded-lg hover:bg-orange-800">
               Sign Up
             </button>
