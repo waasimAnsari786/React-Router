@@ -10,25 +10,25 @@ const Footer = () => {
           <h4 className="text-xl font-bold mb-4">Quick Links</h4>
 
           <NavLink
-            to="/"
+            to="/react-router/"
             className={({ isActive }) => (isActive ? "underline" : "")}
           >
             Home
           </NavLink>
           <NavLink
-            to="/about-us"
+            to="/react-router/about-us"
             className={({ isActive }) => (isActive ? "underline" : "")}
           >
             About US
           </NavLink>
           <NavLink
-            to="/contact-us"
+            to="/react-router/contact-us"
             className={({ isActive }) => (isActive ? "underline" : "")}
           >
             Contact Us
           </NavLink>
           <NavLink
-            to="/github"
+            to="/react-router/github"
             className={({ isActive }) => (isActive ? "underline" : "")}
           >
             GitHub
@@ -40,25 +40,25 @@ const Footer = () => {
           <h4 className="text-xl font-bold mb-4">Follow Us</h4>
           <div className="flex space-x-4">
             <a
-              href="https://facebook.com"
+              href="www.linkedin.com/in/waasim-ansari-39741b28b"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="text-2xl fa-brands fa-linkedin"></i>
             </a>
             <a
-              href="https://twitter.com"
+              href="https://github.com/waasimAnsari786/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fa-brands text-2xl fa-github"></i>
             </a>
             <a
-              href="https://instagram.com"
+              href="https://waasimansari786.github.io/waasim-s-portfolio/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-x-twitter text-2xl"></i>
+              <i class="fa-solid fa-address-book text-2xl"></i>
             </a>
           </div>
         </div>
