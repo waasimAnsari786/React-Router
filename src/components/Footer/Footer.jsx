@@ -12,6 +12,7 @@ const Footer = () => {
           <NavLink
             to="/react-router/"
             className={({ isActive }) => (isActive ? "underline" : "")}
+            end
           >
             Home
           </NavLink>
@@ -40,7 +41,7 @@ const Footer = () => {
           <h4 className="text-xl font-bold mb-4">Follow Us</h4>
           <div className="flex space-x-4">
             <a
-              href="www.linkedin.com/in/waasim-ansari-39741b28b"
+              href="https://www.linkedin.com/in/waasim-ansari-39741b28b/"
               target="_blank"
               rel="noopener noreferrer"
             >

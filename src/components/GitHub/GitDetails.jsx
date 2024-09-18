@@ -3,9 +3,10 @@ import React from "react";
 export default function GitDetails({ myKey, myVal }) {
   return (
     <>
-      <p className="font-bold">
-        {myKey}: <span>{myVal}</span>
-      </p>
+      <div className="flex justify-center flex-wrap gap-1">
+        <span className="font-bold">{myKey}:</span>
+        <span>{myVal}</span>
+      </div>
     </>
   );
 }
